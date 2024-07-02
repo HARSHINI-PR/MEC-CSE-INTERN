@@ -30,7 +30,7 @@ class SIPCalculator {
         double monthlyInvestment = scanner.nextDouble();
         System.out.print("Enter expected returns percentage per annum: ");
         double expectedReturns = scanner.nextDouble();
-        expectedReturnsInPer = expectedReturns; // Update static variable
+        expectedReturnsInPer = expectedReturns; 
         System.out.print("Enter investment period in years: ");
         int periodInYears = scanner.nextInt();
         SIPCalculator calculator = new SIPCalculator(monthlyInvestment, periodInYears);
